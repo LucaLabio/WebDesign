@@ -1,0 +1,23 @@
+p{
+    color: green;
+}
+.roxo{
+    color:purple;
+}
+
+.rosa{
+    color: pink;
+}
+
+#primeiro{
+    color: rgb(255, 0, 0);
+}
+div{
+    border: 1px solid black;
+}
+div p{
+    color: orange;
+}
+h1{
+    color: plum;
+}

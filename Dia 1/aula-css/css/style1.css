@@ -1,0 +1,19 @@
+body{
+    background-color: #87CEFA;
+    background-image: url("../img/paisagem.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+div{
+    background-image: url("../img/figurinha_peixe_whats-2.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+}
+p{
+    background-color: #d0d;
+}
+a{
+    background-color: #008BB8;
+}
