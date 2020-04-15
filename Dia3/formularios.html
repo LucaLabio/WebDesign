@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="procurar">
+        <input type="search" name="pesquisa" id="cPesquiasr">
+            <input type="submit" value="Pesquisar">
+    </form>
+    <form action="cadastrar" method="POST">
+        <fieldset>
+            <legend>Cadastro de visitante</legend>
+            <label for="cNome">Nome: </label>
+            <input id="cNome" type="text" name="nome"><br>
+            <label for="cTel">Tel: </label>
+            <input id="cTel" type="Tel" name="Tel"><br>
+            <label for="cData">Aniversario: </label>
+            <input id="cData" type="date" name="data"><br>
+            <label for="cTime">tempo: </label>
+            <input id="cTime" type="time" name="horario"><br>
+            <label for="cDataHora">Horario Local </label>
+            <input id="cDataHora" type="datetime-local" name="datahora"><br>
+            <label for="cMes">Mes </label>
+            <input id="cMes" type="month" name="mes"><br>
+            <label for="cEmail">Email: </label>
+            <input id="cEmail" type="email" name="email"><br>
+            <label for="cUrl">Site: </label>
+            <input type="url" name="url" id="cUrl"><br>
+            <label for="cSenha">Senha: </label>
+            <input type="password" name="senha" id="cSenha">
+            <input type="submit" value="cadastrar">
+        </fieldset>
+    </form>
+
+    <form action="cont" method="GET">
+        <fieldset>
+            <legend>Continuacao</legend>
+            <label for="cQuant">Quantidade:</label>
+            <input type="number" name="quant" id="cQuant" min="10" max="100" step="5"><br>
+            <label for="cQuant">Volume:</label>
+            <input type="range" name="volume" id="cVolume" min="0" max="30" step="5">
+            
+            <fieldset>
+                <legend>Tamanho</legend>
+                <input id="cPeq" type="radio" name="tamanho" value="peq">
+                <label for="cPeq">Pequeno</label>
+                <input id="cMed" type="radio" name="tamanho" value="med">
+                <label for="cMed">Medio</label>
+                <input id="cGrande" type="radio" name="tamanho" value="grd">
+                <label for="cGrande">Grande</label>
+            </fieldset>
+            <fieldset>
+                <legend>Cores</legend>
+                <input type="checkbox" name="cor" id="cPreta" value="Preta">
+                <label for="cPreta">Preta</label>
+                <input type="checkbox" name="cor" id="cVerde" value="verde">
+                <label for="cVerde">Verde</label>
+                <input type="checkbox" name="cor" id="cAzul" value="Azul">
+                <label for="cAzul">Azul</label>
+            </fieldset>
+            <label for="cArquivo">Arquivo:</label>
+            <input type="file" name="arquivo" id="cArquivo"><br>
+            <input type="submit" value="Gravar">
+            <input type="reset" value="Resetar">
+        </fieldset>
+    </form>
+</body>
+</html>
