@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+body{
+    background-color: #ccc;
+
+}
+
+.contact{
+    width: 50%;
+    background-color: #fff;
+    padding: 25px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.contact h1{
+    color: #dc143c;
+
+}
+.contact textarea{
+    padding-left: 15px;
+    height: 150px;
+    resize: none;
+}
+
+.enviar{
+    text-align: right;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact textarea{
+    font-size: 18px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 0 0 15px;
+    padding: 10px 10px 10px 50px;
+    background-repeat: no-repeat;
+    height: 60px;
+    background-position: 5px center;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"]{
+    margin: 20px 0;
+    cursor: pointer;
+    width: 150px;
+    background-color: #dc143c;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.contact input[type="submit"]:hover{
+    background-color: #e90052;
+}
+
+.contact input:focus,
+.contact textarea:focus{
+    outline: 0;
+    border: 1px solid #e90052;
+}
+
+.user{
+    background-image: url(../images/user2.png);
+}
+
+.email{
+    background-image: url(../images/email2.png);
+}
+
+.phone{
+    background-image: url(../images/telefone2.png);
+}
+
+.celular{
+    background-image: url(../images/celular2.png);
+}
